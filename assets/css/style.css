@@ -11,7 +11,7 @@ body {
     margin-top: 20px;
     background-image: url("../images/gravel.png");
     background-repeat: repeat;
-   
+    border-color: #cccccc solid 1px;
 }
 h1 h2 h3 h4 h5 h6 {
     font-display: 'Georgia', Times, Times 'New Roman', serif;
@@ -22,7 +22,7 @@ h1 h2 h3 h4 h5 h6 {
     margin: 40px auto 20px 300px;
     padding: 20px;
     display: inline-block;
-    border: lightgray solid 1px;
+    border-color: #cccccc solid 1px;
 
 }
 .nav {
@@ -121,13 +121,11 @@ a {
 .text-block {
     position: absolute;
     bottom: 10px;
-    background-color: #48C1C4;
+    background-color: rgba(72, 193, 196, 0.6);
     color: white;
     width: 200px;
-    height: 40px;
+    height: 35px;
     text-align: center;
-   
-    
 }
 
 .column {
@@ -141,8 +139,9 @@ a {
     display: table;
 }
 
-.contact-form > * {
-    font: Helvetica;
-    color: red;
+.form-titles {
+    color: #777777;
+    font-size: 12px;
+    padding-bottom: 5px;
 }
 
