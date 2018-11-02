@@ -1,6 +1,6 @@
 # Basic-Portfolio
 
-My firt portfolio website
+My first portfolio website
 
 ## Getting Started
 
